@@ -3,5 +3,68 @@ ToDo:
 Test Cases in VHDL/Verilog
 
 Test runner script in C
+therefore the expected inputs/outputs of other groups are needed
 
-Demo?
+Synthesis:
+Input:
+Output:
+
+Mapping:
+Input:
+Output:
+
+Placer:
+Input:
+Output:
+
+Routing:
+Input:
+Output:
+
+Timing:
+Input:
+Output:
+
+Bitstream:
+Input:
+Output:
+
+
+Metrics to capture:
+
+Synthesis:
+-number of gates
+-number if FFs inferred
+-logic depth (max levels)
+-time
+
+Mapping:
+-number of LUTs used
+-carry chains used
+-time
+
+Placement:
+-total wirelength
+-number of CLBs used
+-max bounding box (width x length)
+-placement density
+-time
+
+Routing:
+number of routed nets / total nets
+-total routed wire length
+-channel width (tracks needed)
+-routing congestion
+-time
+
+Timing:
+critical path delay
+-slack
+number of timing violations
+-Clock frequency
+
+Bitstream:
+-size (Bytes)
+-number of configuration bits set
+-compression ratio
+-time
