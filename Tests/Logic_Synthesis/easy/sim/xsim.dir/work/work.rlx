@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/easy/src/4to1MUX.v,1769183484,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/easy/src/FSM.v,,mux_4to1,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/easy/src/FSM.v,1769180243,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/easy/src/FSM_tb.v,,fsm_3state,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/easy/src/FSM_tb.v,1769291362,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/easy/src/adder4bit.v,,tb_fsm_3state,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/easy/src/adder4bit.v,1769182669,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/easy/src/multiplier4bit.v,,adder_ripple_carry;full_adder,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/easy/src/multiplier4bit.v,1769180163,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/easy/src/parity_8Bit.v,,mult_4bit,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/easy/src/parity_8Bit.v,1769184137,systemVerilog,,,,parity_8Bit,,,,,,,,

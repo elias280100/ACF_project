@@ -1,0 +1,1 @@
+-debug "typical" -top "tb_mult_4bit" -snapshot "tb_mult_4bit_snapshot" 

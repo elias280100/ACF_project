@@ -1,0 +1,1 @@
+-debug "typical" -top "tb_fsm_3state" -snapshot "tb_fsm_3state_snapshot" 

@@ -1,0 +1,1 @@
+-debug "typical" -top "aes_sbox_tb" -snapshot "aes_sbox_tb_snapshot" 

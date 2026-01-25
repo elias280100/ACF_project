@@ -1,0 +1,24 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab -debug typical -top tb_mult_4bit -snapshot tb_mult_4bit_snapshot 
+Multi-threading is on. Using 14 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'c' [/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/multiplier4bit.v:101]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'd' [/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/multiplier4bit.v:102]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'd' [/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/multiplier4bit.v:114]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'a' [/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/multiplier4bit.v:135]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'a' [/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/multiplier4bit.v:147]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'b' [/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/multiplier4bit.v:148]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'a' [/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/multiplier4bit.v:159]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'b' [/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/multiplier4bit.v:160]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'c' [/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/multiplier4bit.v:161]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.full_adder
+Compiling module work.mult_4bit
+Compiling module work.tb_mult_4bit
+Built simulation snapshot tb_mult_4bit_snapshot

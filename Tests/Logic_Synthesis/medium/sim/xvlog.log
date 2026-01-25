@@ -1,0 +1,17 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/8Bit_CLAdder.v" into library work
+INFO: [VRFC 10-311] analyzing module CLAdder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/FIR.v" into library work
+INFO: [VRFC 10-311] analyzing module FIR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/FSM.v" into library work
+INFO: [VRFC 10-311] analyzing module FSM_16state
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/Hamming_Code.v" into library work
+INFO: [VRFC 10-311] analyzing module Hamming_Code
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/multiplier4bit.v" into library work
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-311] analyzing module mult_4bit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/multiplier4bit_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_mult_4bit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/parity.v" into library work
+INFO: [VRFC 10-311] analyzing module XOR_dominant
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/priority_encoder.v" into library work
+INFO: [VRFC 10-311] analyzing module priority_encoder

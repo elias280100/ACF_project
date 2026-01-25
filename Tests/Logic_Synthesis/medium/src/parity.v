@@ -2,7 +2,7 @@ module XOR_dominant (
     input clk,
     input [15:0] data_in,
     //input load,
-    output parity_out,
+    output parity_out
     //output [15:0] lfsr_out
 );
     wire [7:0] level1;

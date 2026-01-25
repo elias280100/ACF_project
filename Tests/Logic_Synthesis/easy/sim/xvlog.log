@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/easy/src/4to1MUX.v" into library work
+INFO: [VRFC 10-311] analyzing module mux_4to1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/easy/src/FSM.v" into library work
+INFO: [VRFC 10-311] analyzing module fsm_3state
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/easy/src/FSM_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_fsm_3state
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/easy/src/adder4bit.v" into library work
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-311] analyzing module adder_ripple_carry
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/easy/src/multiplier4bit.v" into library work
+INFO: [VRFC 10-311] analyzing module mult_4bit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/easy/src/parity_8Bit.v" into library work
+INFO: [VRFC 10-311] analyzing module parity_8Bit

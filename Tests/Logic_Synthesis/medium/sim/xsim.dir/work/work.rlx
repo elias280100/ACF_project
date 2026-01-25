@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/8Bit_CLAdder.v,1769260090,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/FIR.v,,CLAdder,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/FIR.v,1769089281,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/FSM.v,,FIR,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/FSM.v,1769271109,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/Hamming_Code.v,,FSM_16state,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/Hamming_Code.v,1769358142,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/multiplier4bit.v,,Hamming_Code,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/multiplier4bit.v,1769359418,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/multiplier4bit_tb.v,,full_adder;mult_4bit,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/multiplier4bit_tb.v,1769357727,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/parity.v,,tb_mult_4bit,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/parity.v,1769358260,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/priority_encoder.v,,XOR_dominant,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/priority_encoder.v,1769358557,systemVerilog,,,,priority_encoder,,,,,,,,

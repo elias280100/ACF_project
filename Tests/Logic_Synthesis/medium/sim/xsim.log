@@ -1,0 +1,99 @@
+#-----------------------------------------------------------
+# xsim v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Jan 25 17:43:45 2026
+# Process ID         : 269354
+# Current directory  : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/sim
+# Command line       : xsim -mode tcl -source {xsim.dir/tb_mult_4bit_snapshot/xsim_script.tcl}
+# Log file           : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/sim/xsim.log
+# Journal file       : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/sim/xsim.jou
+# Running On         : elias-ThinkPad-E14-Gen-6
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : AMD Ryzen 7 7735HS with Radeon Graphics
+# CPU Frequency      : 2307.685 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 32342 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 40932 MB
+# Available Virtual  : 31285 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_mult_4bit_snapshot/xsim_script.tcl
+# xsim {tb_mult_4bit_snapshot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+=== 4-Bit Multiplier Testbench ===
+
+--- Test 1: Zero Cases ---
+Time=0 | a=0000 ( 0) × b=0000 ( 0) = product=00000000 (  0)
+✓ PASS:  0 ×  0 =   0 (expected   0)
+Time=10000 | a=0000 ( 0) × b=0101 ( 5) = product=00000000 (  0)
+✓ PASS:  0 ×  5 =   0 (expected   0)
+Time=20000 | a=0111 ( 7) × b=0000 ( 0) = product=00000000 (  0)
+✓ PASS:  7 ×  0 =   0 (expected   0)
+
+--- Test 2: Multiply by One ---
+Time=30000 | a=0001 ( 1) × b=0001 ( 1) = product=00000001 (  1)
+✓ PASS:  1 ×  1 =   1 (expected   1)
+Time=40000 | a=0101 ( 5) × b=0001 ( 1) = product=00000101 (  5)
+✓ PASS:  5 ×  1 =   5 (expected   5)
+Time=50000 | a=0001 ( 1) × b=1111 (15) = product=00001111 ( 15)
+✓ PASS:  1 × 15 =  15 (expected  15)
+
+--- Test 3: Small Numbers ---
+Time=60000 | a=0010 ( 2) × b=0011 ( 3) = product=00000110 (  6)
+✓ PASS:  2 ×  3 =   6 (expected   6)
+Time=70000 | a=0100 ( 4) × b=0101 ( 5) = product=00010100 ( 20)
+✓ PASS:  4 ×  5 =  20 (expected  20)
+Time=80000 | a=0011 ( 3) × b=0111 ( 7) = product=00010101 ( 21)
+✓ PASS:  3 ×  7 =  21 (expected  21)
+
+--- Test 4: Powers of 2 ---
+Time=90000 | a=0010 ( 2) × b=0010 ( 2) = product=00000100 (  4)
+✓ PASS:  2 ×  2 =   4 (expected   4)
+Time=100000 | a=0010 ( 2) × b=0100 ( 4) = product=00001000 (  8)
+✓ PASS:  2 ×  4 =   8 (expected   8)
+Time=110000 | a=0100 ( 4) × b=0100 ( 4) = product=00010000 ( 16)
+✓ PASS:  4 ×  4 =  16 (expected  16)
+Time=120000 | a=1000 ( 8) × b=0010 ( 2) = product=00010000 ( 16)
+✓ PASS:  8 ×  2 =  16 (expected  16)
+
+--- Test 5: Medium Numbers ---
+Time=130000 | a=0110 ( 6) × b=0111 ( 7) = product=00101010 ( 42)
+✓ PASS:  6 ×  7 =  42 (expected  42)
+Time=140000 | a=1001 ( 9) × b=0101 ( 5) = product=00101101 ( 45)
+✓ PASS:  9 ×  5 =  45 (expected  45)
+Time=150000 | a=1010 (10) × b=0110 ( 6) = product=00111100 ( 60)
+✓ PASS: 10 ×  6 =  60 (expected  60)
+
+--- Test 6: Maximum Values ---
+Time=160000 | a=1111 (15) × b=1111 (15) = product=10101001 (169)
+✗ FAIL: 15 × 15 = 169 (expected 225)
+Time=170000 | a=1111 (15) × b=1110 (14) = product=10100010 (162)
+✗ FAIL: 15 × 14 = 162 (expected 210)
+Time=180000 | a=1110 (14) × b=1101 (13) = product=10110110 (182)
+✓ PASS: 14 × 13 = 182 (expected 182)
+
+--- Test 7: Asymmetric ---
+Time=190000 | a=0001 ( 1) × b=1111 (15) = product=00001111 ( 15)
+✓ PASS:  1 × 15 =  15 (expected  15)
+Time=200000 | a=1111 (15) × b=0001 ( 1) = product=00001111 ( 15)
+✓ PASS: 15 ×  1 =  15 (expected  15)
+Time=210000 | a=0011 ( 3) × b=1011 (11) = product=00100001 ( 33)
+✓ PASS:  3 × 11 =  33 (expected  33)
+
+--- Test 8: Edge Cases ---
+Time=220000 | a=0111 ( 7) × b=1000 ( 8) = product=00111000 ( 56)
+✓ PASS:  7 ×  8 =  56 (expected  56)
+Time=230000 | a=1011 (11) × b=1100 (12) = product=10000100 (132)
+✓ PASS: 11 × 12 = 132 (expected 132)
+Time=240000 | a=1101 (13) × b=1101 (13) = product=10101001 (169)
+✓ PASS: 13 × 13 = 169 (expected 169)
+
+=== Test Complete ===
+$finish called at time : 250 ns : File "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Logic_Synthesis/medium/src/multiplier4bit_tb.v" Line 78
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Jan 25 17:43:47 2026...
