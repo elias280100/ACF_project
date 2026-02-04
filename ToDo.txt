@@ -68,3 +68,19 @@ Bitstream:
 -number of configuration bits set
 -compression ratio
 -time
+
+
+
+
+
+Individual Test cases from easy to medium to challenging for each project based on challenges to deal with
+(e. g. for synthesis: complex Boolean logic patterns -> massive XOR structure)
+Measure metrics (LUT count, LUT depth, wire length,...) with Open source tools (Yosys, Nextpnr)
+Extract metrics from output files and compare it to measured metrics of Open Source tools
+
+So far implemented test cases for synthesis, mapping and placer (e. g. Multiplier (Dadda/Wallace), Cyclic Redundancy Check, Carry Look Ahead Adder,...)
+Ongoing implementation of test cases for Routing, Timing and Bitstream; extracting metrics from output files
+
+
+
+

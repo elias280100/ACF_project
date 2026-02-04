@@ -1,0 +1,1 @@
+-debug "typical" -top "GrayCodeConv_tb" -snapshot "GrayCodeConv_tb_snapshot" 

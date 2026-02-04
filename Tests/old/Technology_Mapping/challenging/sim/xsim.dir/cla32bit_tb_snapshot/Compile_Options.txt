@@ -1,0 +1,1 @@
+-debug "typical" -top "cla32bit_tb" -snapshot "cla32bit_tb_snapshot" 

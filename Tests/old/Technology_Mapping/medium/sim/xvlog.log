@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/CLA.v" into library work
+INFO: [VRFC 10-311] analyzing module CLA8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/CLA_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module CLA_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/GrayCodeConv.v" into library work
+INFO: [VRFC 10-311] analyzing module gray_code_conv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/GrayCodeConv_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module GrayCodeConv_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/InputMajority.v" into library work
+INFO: [VRFC 10-311] analyzing module maj_input
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/InputMajority_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module maj_input_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/Parity16Bit.v" into library work
+INFO: [VRFC 10-311] analyzing module parity
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/Parity16Bit_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module Parity_tb

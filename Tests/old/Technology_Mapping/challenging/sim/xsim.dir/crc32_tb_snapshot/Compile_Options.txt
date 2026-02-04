@@ -1,0 +1,1 @@
+-debug "typical" -top "crc32_tb" -snapshot "crc32_tb_snapshot" 

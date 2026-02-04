@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# xsim v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Feb  2 19:30:09 2026
+# Process ID         : 666745
+# Current directory  : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/challenging/sim
+# Command line       : xsim -mode tcl -source {xsim.dir/CRC32_tb_snapshot/xsim_script.tcl}
+# Log file           : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/challenging/sim/xsim.log
+# Journal file       : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/challenging/sim/xsim.jou
+# Running On         : elias-ThinkPad-E14-Gen-6
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : AMD Ryzen 7 7735HS with Radeon Graphics
+# CPU Frequency      : 3298.135 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 32342 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 40932 MB
+# Available Virtual  : 30140 MB
+#-----------------------------------------------------------
+source xsim.dir/CRC32_tb_snapshot/xsim_script.tcl
+# xsim {CRC32_tb_snapshot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+=== CRC32 Testbench Started ===
+RESET_SEED = 0xffffffff (Ethernet)
+
+Test 1: Reset Verification
+  CRC after reset: 0xffffffff ✓
+
+Test 2: Single Byte 0x00
+CLK 55000: data=0x00, enable=1, clear=0 → CRC=0xffffffff
+CLK 65000: data=0x00, enable=1, clear=0 → CRC=0x4e08bfb4
+  Input: 0x00 → CRC: 0x00b7647d
+
+Test 3: Multi-Byte Stream [0x12, 0x34, 0x56, 0x78]
+CLK 105000: data=0x12, enable=1, clear=0 → CRC=0xffffffff
+CLK 115000: data=0x12, enable=1, clear=0 → CRC=0x0b9b5faa
+  Byte 1 (0x12): 0xf587817f
+CLK 125000: data=0x34, enable=1, clear=0 → CRC=0xf587817f
+CLK 135000: data=0x34, enable=1, clear=0 → CRC=0xdecaf22e
+  Byte 2 (0x34): 0x20d1deaf
+CLK 145000: data=0x56, enable=1, clear=0 → CRC=0x20d1deaf
+CLK 155000: data=0x56, enable=1, clear=0 → CRC=0x2becff55
+  Byte 3 (0x56): 0x3d86ce34
+CLK 165000: data=0x78, enable=1, clear=0 → CRC=0x3d86ce34
+CLK 175000: data=0x78, enable=1, clear=0 → CRC=0xa58d2f1c
+  Final (0x78): 0xad79d13a
+
+Test 4: Clear + 0xFF
+CLK 225000: data=0xff, enable=1, clear=0 → CRC=0xffffffff
+CLK 235000: data=0xff, enable=1, clear=0 → CRC=0xffffff00
+  Input: 0xFF → CRC: 0xffff0000
+
+Test 5: Hold Test (enable=0)
+  CRC vor Hold: 0xffff0000
+  CRC nach Hold: 0xffff0000 ✓ (sollte gleich sein)
+
+Test 6: Reset während Berechnung
+CLK 305000: data=0xaa, enable=1, clear=0 → CRC=0xffff0000
+CLK 315000: data=0xaa, enable=1, clear=0 → CRC=0xffffffff
+CLK 325000: data=0xaa, enable=1, clear=0 → CRC=0xffffffff
+CLK 335000: data=0xaa, enable=1, clear=0 → CRC=0x90ad3f6c
+  CRC nach Reset: 0x5687d746 ✓
+
+=== ALL TESTS PASSED! ===
+$finish called at time : 340 ns : File "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/challenging/src/CRC32_tb.v" Line 103
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Feb  2 19:30:12 2026...

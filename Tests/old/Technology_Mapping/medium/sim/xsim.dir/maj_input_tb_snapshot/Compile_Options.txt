@@ -1,0 +1,1 @@
+-debug "typical" -top "maj_input_tb" -snapshot "maj_input_tb_snapshot" 

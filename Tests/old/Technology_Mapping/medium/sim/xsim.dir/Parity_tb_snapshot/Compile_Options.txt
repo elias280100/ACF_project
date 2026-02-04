@@ -1,0 +1,1 @@
+-debug "typical" -top "Parity_tb" -snapshot "Parity_tb_snapshot" 

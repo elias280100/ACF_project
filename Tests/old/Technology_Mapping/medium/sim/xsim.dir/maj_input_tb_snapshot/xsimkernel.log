@@ -1,0 +1,7 @@
+Running: xsim.dir/maj_input_tb_snapshot/xsimk -runall -simmode gui -wdb maj_input_tb_snapshot.wdb -simrunnum 0 -socket 40081
+Design successfully loaded
+Design Loading Memory Usage: 179916 KB (Peak: 179972 KB)
+Design Loading CPU Usage: 670 ms
+Simulation completed
+Simulation Memory Usage: 261652 KB (Peak: 319184 KB)
+Simulation CPU Usage: 670 ms

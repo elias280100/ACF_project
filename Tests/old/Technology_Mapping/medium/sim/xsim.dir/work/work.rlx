@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/CLA.v,1769450113,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/CLA_tb.v,,CLA8,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/CLA_tb.v,1769450608,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/GrayCodeConv.v,,CLA_tb,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/GrayCodeConv.v,1769726645,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/GrayCodeConv_tb.v,,gray_code_conv,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/GrayCodeConv_tb.v,1769726734,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/InputMajority.v,,GrayCodeConv_tb,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/InputMajority.v,1769726793,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/InputMajority_tb.v,,maj_input,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/InputMajority_tb.v,1769767442,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/Parity16Bit.v,,maj_input_tb,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/Parity16Bit.v,1769607311,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/Parity16Bit_tb.v,,parity,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/src/Parity16Bit_tb.v,1769607405,systemVerilog,,,,Parity_tb,,,,,,,,

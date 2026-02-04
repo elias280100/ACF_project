@@ -1,0 +1,1 @@
+-debug "typical" -top "Multiplier_Dadda_Tree_tb" -snapshot "Multiplier_Dadda_Tree_tb_snapshot" 

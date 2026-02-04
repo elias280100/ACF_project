@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/challenging/src/CLA32Bit.v,1769776557,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/challenging/src/CLA32Bit_tb.v,,CLA16,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/challenging/src/CLA32Bit_tb.v,1769776668,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/challenging/src/CRC32.v,,cla16_tb,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/challenging/src/CRC32.v,1770057000,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/challenging/src/CRC32_tb.v,,CRC32,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/challenging/src/CRC32_tb.v,1770053572,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/challenging/src/Multiplier_DaddaTree.v,,CRC32_tb,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/challenging/src/Multiplier_DaddaTree.v,1769963167,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/challenging/src/Multiplier_Dadda_Tree_tb.v,,Multiplier_DaddaTree;full_adder;half_adder,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/challenging/src/Multiplier_Dadda_Tree_tb.v,1769963844,systemVerilog,,,,Multiplier_Dadda_Tree_tb,,,,,,,,

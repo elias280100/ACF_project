@@ -1,0 +1,7 @@
+Running: xsim.dir/aes_sbox_tb_snapshot/xsimk -runall -simmode gui -wdb aes_sbox_tb_snapshot.wdb -simrunnum 0 -socket 60807
+Design successfully loaded
+Design Loading Memory Usage: 179920 KB (Peak: 179976 KB)
+Design Loading CPU Usage: 680 ms
+Simulation completed
+Simulation Memory Usage: 261656 KB (Peak: 319188 KB)
+Simulation CPU Usage: 680 ms

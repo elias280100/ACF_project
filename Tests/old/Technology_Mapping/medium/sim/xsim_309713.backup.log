@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# xsim v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Jan 26 19:03:35 2026
+# Process ID         : 309713
+# Current directory  : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/sim
+# Command line       : xsim -mode tcl -source {xsim.dir/CLA_tb_snapshot/xsim_script.tcl}
+# Log file           : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/sim/xsim.log
+# Journal file       : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Technology_Mapping/medium/sim/xsim.jou
+# Running On         : elias-ThinkPad-E14-Gen-6
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : AMD Ryzen 7 7735HS with Radeon Graphics
+# CPU Frequency      : 4591.393 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 32342 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 40932 MB
+# Available Virtual  : 32115 MB
+#-----------------------------------------------------------
+source xsim.dir/CLA_tb_snapshot/xsim_script.tcl
+# xsim {CLA_tb_snapshot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+=== 8-Bit CLA Testbench ===
+
+--- Test 1: Simple Additions without Carry-In ---
+✓ PASS:  15 +  10 + 0 =  25 with Cout=0 (expected  25 with Cout=0)
+✓ PASS: 100 +  28 + 0 = 128 with Cout=0 (expected 128 with Cout=0)
+✓ PASS: 200 +  55 + 0 = 255 with Cout=0 (expected 255 with Cout=0)
+
+--- Test 2: Additions with Carry-In ---
+✓ PASS:  50 +  75 + 1 = 126 with Cout=0 (expected 126 with Cout=0)
+✓ PASS: 130 + 130 + 1 =   5 with Cout=1 (expected   5 with Cout=1)
+✓ PASS: 255 +   1 + 1 =   1 with Cout=1 (expected   1 with Cout=1)
+
+--- Test 3: Edge Cases ---
+✓ PASS:   0 +   0 + 0 =   0 with Cout=0 (expected   0 with Cout=0)
+✓ PASS:   0 +   0 + 1 =   1 with Cout=0 (expected   1 with Cout=0)
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Jan 26 19:03:37 2026...

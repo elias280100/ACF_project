@@ -1,0 +1,7 @@
+Running: xsim.dir/crc32_tb_snapshot/xsimk -runall -simmode gui -wdb crc32_tb_snapshot.wdb -simrunnum 0 -socket 48777
+Design successfully loaded
+Design Loading Memory Usage: 179944 KB (Peak: 180000 KB)
+Design Loading CPU Usage: 680 ms
+Simulation completed
+Simulation Memory Usage: 261680 KB (Peak: 319212 KB)
+Simulation CPU Usage: 680 ms
