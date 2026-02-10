@@ -1,9 +1,9 @@
-module Logical_left_shift_tb;
+module Arithmetic_left_shift_tb;
     reg [7:0] data;
     reg [3:0] shift;
     wire [7:0] result;
 
-    Logical_left_shift dut (
+    Arithmetic_left_shift dut (
         .data(data),
         .shift(shift),
         .result(result)

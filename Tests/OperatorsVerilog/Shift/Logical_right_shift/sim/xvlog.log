@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Shift/Logical_right_shift/src/Logical_right_shift.v" into library work
+INFO: [VRFC 10-311] analyzing module Logical_right_shift
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Shift/Logical_right_shift/src/Logical_right_shift_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module Logical_right_shift_tb
+WARNING: [VRFC 10-8497] literal value 'b10100110 truncated to fit in 7 bits [/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Shift/Logical_right_shift/src/Logical_right_shift_tb.v:14]
+WARNING: [VRFC 10-8497] literal value 'b10100110 truncated to fit in 7 bits [/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Shift/Logical_right_shift/src/Logical_right_shift_tb.v:20]
+WARNING: [VRFC 10-8497] literal value 'b10100110 truncated to fit in 7 bits [/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Shift/Logical_right_shift/src/Logical_right_shift_tb.v:26]

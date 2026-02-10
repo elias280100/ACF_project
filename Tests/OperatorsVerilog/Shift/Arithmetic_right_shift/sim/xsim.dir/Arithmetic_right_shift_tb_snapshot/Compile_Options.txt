@@ -1,0 +1,1 @@
+-debug "typical" -top "Arithmetic_right_shift_tb" -snapshot "Arithmetic_right_shift_tb_snapshot" 
