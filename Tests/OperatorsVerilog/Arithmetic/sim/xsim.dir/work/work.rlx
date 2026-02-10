@@ -1,0 +1,15 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Add.v,1770641123,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Add_tb.v,,ADD,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Add_tb.v,1770641228,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Divide.v,,ADD_tb,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Divide.v,1770641425,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Divide_tb.v,,Divide,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Divide_tb.v,1770641584,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Exponent.v,,Divide_tb,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Exponent.v,1770654880,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Exponent_tb.v,,Exponent,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Exponent_tb.v,1770654874,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Multiplier.v,,Exponent_tb,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Multiplier.v,1770654653,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Multiplier_tb.v,,Multiplier,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Multiplier_tb.v,1770654653,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Sub.v,,Multiplier_tb,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Sub.v,1770641324,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Sub_tb.v,,SUB,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Sub_tb.v,1770641389,systemVerilog,,,,SUB_tb,,,,,,,,
+/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Standard/new/Basic/src/And.v,1770640454,systemVerilog,,/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Standard/new/Basic/src/Divide.v,,AND,,,,,,,,

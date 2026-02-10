@@ -1,0 +1,1 @@
+-debug "typical" -top "Reduction_nand_tb" -snapshot "Reduction_nand_tb_snapshot" 

@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Standard/new/Basic/src/Add.v" into library work
+INFO: [VRFC 10-311] analyzing module ADD
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Standard/new/Basic/src/Add_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module ADD_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Standard/new/Basic/src/And.v" into library work
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Standard/new/Basic/src/Divide.v" into library work
+INFO: [VRFC 10-311] analyzing module Divide
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Standard/new/Basic/src/Divide_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module Divide_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Standard/new/Basic/src/Sub.v" into library work
+INFO: [VRFC 10-311] analyzing module SUB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Standard/new/Basic/src/Sub_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module SUB_tb

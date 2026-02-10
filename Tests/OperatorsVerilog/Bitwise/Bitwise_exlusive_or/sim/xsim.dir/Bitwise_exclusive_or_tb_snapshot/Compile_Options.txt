@@ -1,0 +1,1 @@
+-debug "typical" -top "Bitwise_exclusive_or_tb" -snapshot "Bitwise_exclusive_or_tb_snapshot" 

@@ -1,0 +1,1 @@
+-debug "typical" -top "Divide_tb" -snapshot "Divide_tb_snapshot" 

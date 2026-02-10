@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Bitwise/Bitwise_exlusive_or/src/Bitwise_exclusive_or.v" into library work
+INFO: [VRFC 10-311] analyzing module Bitwise_exclusive_or
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Bitwise/Bitwise_exlusive_or/src/Bitwise_exclusive_or_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module Bitwise_exclusive_or_tb

@@ -1,0 +1,1 @@
+-debug "typical" -top "ADD_tb" -snapshot "ADD_tb_snapshot" 

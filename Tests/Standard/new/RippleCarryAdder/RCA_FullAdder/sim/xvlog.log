@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Standard/new/RippleCarryAdder/RCA_FullAdder/src/adder4bit.v" into library work
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-311] analyzing module adder_ripple_carry
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Standard/new/RippleCarryAdder/RCA_FullAdder/src/adder4bit_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module adder4bit_tb

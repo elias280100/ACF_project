@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# xsim v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Feb  9 17:35:22 2026
+# Process ID         : 36904
+# Current directory  : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/sim
+# Command line       : xsim -mode tcl -source {xsim.dir/Exponent_tb_snapshot/xsim_script.tcl}
+# Log file           : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/sim/xsim.log
+# Journal file       : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/sim/xsim.jou
+# Running On         : elias-ThinkPad-E14-Gen-6
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : AMD Ryzen 7 7735HS with Radeon Graphics
+# CPU Frequency      : 1105.000 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 32342 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 40932 MB
+# Available Virtual  : 35406 MB
+#-----------------------------------------------------------
+source xsim.dir/Exponent_tb_snapshot/xsim_script.tcl
+# xsim {Exponent_tb_snapshot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+Test case 1:   2^  3 =   8
+Test case 2:   5^  0 =   1
+Test case 3:   3^  4 =  81
+Test case 4:   0^  5 =   0
+Test case 5:   1^  7 =   1
+$finish called at time : 50 ns : File "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/src/Exponent_tb.v" Line 42
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Feb  9 17:35:24 2026...

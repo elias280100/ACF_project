@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# xsim v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Feb  9 14:00:34 2026
+# Process ID         : 30714
+# Current directory  : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Standard/new/RippleCarryAdder/RCA_FullAdder/sim
+# Command line       : xsim -mode tcl -source {xsim.dir/adder4bit_tb_snapshot/xsim_script.tcl}
+# Log file           : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Standard/new/RippleCarryAdder/RCA_FullAdder/sim/xsim.log
+# Journal file       : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Standard/new/RippleCarryAdder/RCA_FullAdder/sim/xsim.jou
+# Running On         : elias-ThinkPad-E14-Gen-6
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : AMD Ryzen 7 7735HS with Radeon Graphics
+# CPU Frequency      : 3470.050 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 32342 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 40932 MB
+# Available Virtual  : 35714 MB
+#-----------------------------------------------------------
+source xsim.dir/adder4bit_tb_snapshot/xsim_script.tcl
+# xsim {adder4bit_tb_snapshot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+Test case 1: A = 0001, B = 0010, Cin = 0, Sum = 0011, Cout = 0
+Test case 2: A = 0101, B = 0110, Cin = 0, Sum = 1011, Cout = 0
+Test case 3: A = 1111, B = 0001, Cin = 0, Sum = 0000, Cout = 1
+Test case 4: A = 1010, B = 0101, Cin = 1, Sum = 0000, Cout = 1
+$finish called at time : 40 ns : File "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Standard/new/RippleCarryAdder/RCA_FullAdder/src/adder4bit_tb.v" Line 45
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Feb  9 14:00:36 2026...

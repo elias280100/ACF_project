@@ -1,0 +1,1 @@
+-debug "typical" -top "Reduction_or_tb" -snapshot "Reduction_or_tb_snapshot" 

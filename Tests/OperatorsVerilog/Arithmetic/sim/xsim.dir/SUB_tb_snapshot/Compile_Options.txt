@@ -1,0 +1,1 @@
+-debug "typical" -top "SUB_tb" -snapshot "SUB_tb_snapshot" 

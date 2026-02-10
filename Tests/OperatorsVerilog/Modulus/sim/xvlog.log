@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Modulus/src/Modulus.v" into library work
+INFO: [VRFC 10-311] analyzing module Modulus
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Modulus/src/Modulus_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module Modulus_tb

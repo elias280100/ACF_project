@@ -1,0 +1,1 @@
+-debug "typical" -top "adder4bit_tb" -snapshot "adder4bit_tb_snapshot" 
