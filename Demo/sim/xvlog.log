@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Demo/src/Hello_World.v" into library work
+INFO: [VRFC 10-311] analyzing module Hello_World
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Demo/src/Hello_World_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module Hello_World_tb

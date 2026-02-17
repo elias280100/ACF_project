@@ -1,0 +1,7 @@
+Running: xsim.dir/Hello_World_tb_snapshot/xsimk -runall -simmode gui -wdb Hello_World_tb_snapshot.wdb -simrunnum 0 -socket 57479
+Design successfully loaded
+Design Loading Memory Usage: 179936 KB (Peak: 179992 KB)
+Design Loading CPU Usage: 740 ms
+Simulation completed
+Simulation Memory Usage: 261932 KB (Peak: 319204 KB)
+Simulation CPU Usage: 1780 ms
