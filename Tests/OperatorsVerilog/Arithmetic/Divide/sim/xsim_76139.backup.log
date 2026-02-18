@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# xsim v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Feb 18 11:28:55 2026
+# Process ID         : 76139
+# Current directory  : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/Divide/sim
+# Command line       : xsim -mode tcl -source {xsim.dir/Divide_tb_snapshot/xsim_script.tcl}
+# Log file           : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/Divide/sim/xsim.log
+# Journal file       : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/Divide/sim/xsim.jou
+# Running On         : elias-ThinkPad-E14-Gen-6
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : AMD Ryzen 7 7735HS with Radeon Graphics
+# CPU Frequency      : 2027.231 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 32340 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 40930 MB
+# Available Virtual  : 35439 MB
+#-----------------------------------------------------------
+source xsim.dir/Divide_tb_snapshot/xsim_script.tcl
+# xsim {Divide_tb_snapshot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+✓ PASS:  10 /   2 =   5 (expected   5)
+✓ PASS:  20 /   4 =   5 (expected   5)
+✓ PASS:  15 /   3 =   5 (expected   5)
+✗ FAIL:  10 /   0 =   x (expected   X)
+✓ PASS:  28 /   4 =   7 (expected   7)
+$finish called at time : 90 ns : File "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/Divide/src/Divide_tb.v" Line 52
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Feb 18 11:28:57 2026...

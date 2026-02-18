@@ -1,0 +1,1 @@
+-debug "typical" -top "Demo_UART_tb" -snapshot "Demo_UART_tb_snapshot" 

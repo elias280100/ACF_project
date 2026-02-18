@@ -1,7 +1,0 @@
-Running: xsim.dir/Exponent_tb_snapshot/xsimk -runall -simmode gui -wdb Exponent_tb_snapshot.wdb -simrunnum 0 -socket 33825
-Design successfully loaded
-Design Loading Memory Usage: 179912 KB (Peak: 179968 KB)
-Design Loading CPU Usage: 690 ms
-Simulation completed
-Simulation Memory Usage: 265748 KB (Peak: 319180 KB)
-Simulation CPU Usage: 700 ms

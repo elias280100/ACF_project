@@ -1,5 +1,5 @@
 SRC_PATH=../src
-TESTBENCH_NAME=Hello_World_tb
+TESTBENCH_NAME=Demo_UART_tb
 
 all: simulate
 
