@@ -1,0 +1,1 @@
+-debug "typical" -top "Replication_tb" -snapshot "Replication_tb_snapshot" 

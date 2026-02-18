@@ -1,0 +1,1 @@
+-debug "typical" -top "Concatenation_tb" -snapshot "Concatenation_tb_snapshot" 
