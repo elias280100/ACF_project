@@ -51,7 +51,7 @@ module Hello_World_tb;
         button = 1'b0;
         testbutton = 1'b0;
 
-        #1000000;
+        #2000000;
 
         $finish;
     end

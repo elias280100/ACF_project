@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Tue Feb 17 23:14:57 2026
-# Process ID         : 57689
+# Start of session at: Wed Feb 18 10:40:26 2026
+# Process ID         : 67717
 # Current directory  : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Demo/sim
 # Command line       : xsim -mode tcl -source {xsim.dir/Hello_World_tb_snapshot/xsim_script.tcl}
 # Log file           : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Demo/sim/xsim.log
@@ -13,13 +13,13 @@
 # Platform           : Ubuntu
 # Operating System   : Ubuntu 24.04.3 LTS
 # Processor Detail   : AMD Ryzen 7 7735HS with Radeon Graphics
-# CPU Frequency      : 2073.622 MHz
+# CPU Frequency      : 3547.549 MHz
 # CPU Physical cores : 8
 # CPU Logical cores  : 16
 # Host memory        : 32340 MB
 # Swap memory        : 8589 MB
 # Total Virtual      : 40930 MB
-# Available Virtual  : 35518 MB
+# Available Virtual  : 35389 MB
 #-----------------------------------------------------------
 source xsim.dir/Hello_World_tb_snapshot/xsim_script.tcl
 run -all
