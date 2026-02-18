@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Wed Feb 18 14:12:54 2026
-# Process ID         : 96095
+# Start of session at: Wed Feb 18 11:13:34 2026
+# Process ID         : 72460
 # Current directory  : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/Multiplier/sim
 # Command line       : xsim -mode tcl -source {xsim.dir/Multiplier_tb_snapshot/xsim_script.tcl}
 # Log file           : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/Multiplier/sim/xsim.log
@@ -13,13 +13,13 @@
 # Platform           : Ubuntu
 # Operating System   : Ubuntu 24.04.3 LTS
 # Processor Detail   : AMD Ryzen 7 7735HS with Radeon Graphics
-# CPU Frequency      : 1105.800 MHz
+# CPU Frequency      : 2060.861 MHz
 # CPU Physical cores : 8
 # CPU Logical cores  : 16
 # Host memory        : 32340 MB
 # Swap memory        : 8589 MB
 # Total Virtual      : 40930 MB
-# Available Virtual  : 35267 MB
+# Available Virtual  : 35460 MB
 #-----------------------------------------------------------
 source xsim.dir/Multiplier_tb_snapshot/xsim_script.tcl
 # xsim {Multiplier_tb_snapshot} -autoloadwcfg -runall
@@ -28,47 +28,47 @@ run -all
 === 4-Bit Multiplier Testbench ===
 
 --- Test 1: Zero Cases ---
-PASS:  0 ×  0 =   0 (expected   0)
-PASS:  0 ×  5 =   0 (expected   0)
-PASS:  7 ×  0 =   0 (expected   0)
+✓ PASS:  0 ×  0 =   0 (expected   0)
+✓ PASS:  0 ×  5 =   0 (expected   0)
+✓ PASS:  7 ×  0 =   0 (expected   0)
 
 --- Test 2: Multiply by One ---
-PASS:  1 ×  1 =   1 (expected   1)
-PASS:  5 ×  1 =   5 (expected   5)
-PASS:  1 × 15 =  15 (expected  15)
+✓ PASS:  1 ×  1 =   1 (expected   1)
+✓ PASS:  5 ×  1 =   5 (expected   5)
+✓ PASS:  1 × 15 =  15 (expected  15)
 
 --- Test 3: Small Numbers ---
-PASS:  2 ×  3 =   6 (expected   6)
-PASS:  4 ×  5 =  20 (expected  20)
-PASS:  3 ×  7 =  21 (expected  21)
+✓ PASS:  2 ×  3 =   6 (expected   6)
+✓ PASS:  4 ×  5 =  20 (expected  20)
+✓ PASS:  3 ×  7 =  21 (expected  21)
 
 --- Test 4: Powers of 2 ---
-PASS:  2 ×  2 =   4 (expected   4)
-PASS:  2 ×  4 =   8 (expected   8)
-PASS:  4 ×  4 =  16 (expected  16)
-PASS:  8 ×  2 =  16 (expected  16)
+✓ PASS:  2 ×  2 =   4 (expected   4)
+✓ PASS:  2 ×  4 =   8 (expected   8)
+✓ PASS:  4 ×  4 =  16 (expected  16)
+✓ PASS:  8 ×  2 =  16 (expected  16)
 
 --- Test 5: Medium Numbers ---
-PASS:  6 ×  7 =  42 (expected  42)
-PASS:  9 ×  5 =  45 (expected  45)
-PASS: 10 ×  6 =  60 (expected  60)
+✓ PASS:  6 ×  7 =  42 (expected  42)
+✓ PASS:  9 ×  5 =  45 (expected  45)
+✓ PASS: 10 ×  6 =  60 (expected  60)
 
 --- Test 6: Maximum Values ---
-PASS: 15 × 15 = 225 (expected 225)
-PASS: 15 × 14 = 210 (expected 210)
-PASS: 14 × 13 = 182 (expected 182)
+✓ PASS: 15 × 15 = 225 (expected 225)
+✓ PASS: 15 × 14 = 210 (expected 210)
+✓ PASS: 14 × 13 = 182 (expected 182)
 
 --- Test 7: Asymmetric ---
-PASS:  1 × 15 =  15 (expected  15)
-PASS: 15 ×  1 =  15 (expected  15)
-PASS:  3 × 11 =  33 (expected  33)
+✓ PASS:  1 × 15 =  15 (expected  15)
+✓ PASS: 15 ×  1 =  15 (expected  15)
+✓ PASS:  3 × 11 =  33 (expected  33)
 
 --- Test 8: Edge Cases ---
-PASS:  7 ×  8 =  56 (expected  56)
-PASS: 11 × 12 = 132 (expected 132)
-PASS: 13 × 13 = 169 (expected 169)
+✓ PASS:  7 ×  8 =  56 (expected  56)
+✓ PASS: 11 × 12 = 132 (expected 132)
+✓ PASS: 13 × 13 = 169 (expected 169)
 
 === Test Complete ===
 $finish called at time : 250 ns : File "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/Multiplier/src/Multiplier_tb.v" Line 80
 exit
-INFO: [Common 17-206] Exiting xsim at Wed Feb 18 14:12:56 2026...
+INFO: [Common 17-206] Exiting xsim at Wed Feb 18 11:13:36 2026...
