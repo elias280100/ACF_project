@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# xsim v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Mar 20 10:52:29 2026
+# Process ID         : 36359
+# Current directory  : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/CLA16Bit/sim
+# Command line       : xsim -mode tcl -source {xsim.dir/cla16_tb_snapshot/xsim_script.tcl}
+# Log file           : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/CLA16Bit/sim/xsim.log
+# Journal file       : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/CLA16Bit/sim/xsim.jou
+# Running On         : elias-ThinkPad-E14-Gen-6
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : AMD Ryzen 7 7735HS with Radeon Graphics
+# CPU Frequency      : 2028.067 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 32340 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 40930 MB
+# Available Virtual  : 36504 MB
+#-----------------------------------------------------------
+source xsim.dir/cla16_tb_snapshot/xsim_script.tcl
+# xsim {cla16_tb_snapshot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS: 0000 + 0000 + 0 = 0000|0
+PASS: ffff + 0000 + 0 = ffff|0
+PASS: ffff + ffff + 1 = ffff|1
+PASS: 0001 + ffff + 0 = 0000|1
+PASS: 3524 + 5e81 + 1 = 93a6|0
+PASS: 5663 + 7b0d + 1 = d171|0
+PASS: 8465 + 5212 + 1 = d678|0
+PASS: cd0d + f176 + 1 = be84|1
+PASS: 57ed + f78c + 1 = 4f7a|1
+PASS: 24c6 + 84c5 + 0 = a98b|0
+PASS: f7e5 + 7277 + 0 = 6a5c|1
+PASS: db8f + 69f2 + 0 = 4581|1
+PASS: 7ae8 + 4ec5 + 0 = c9ad|0
+PASS: 28bd + 582d + 1 = 80eb|0
+All tests passed
+$finish called at time : 24 ns : File "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/CLA16Bit/src/CLA32Bit_tb.v" Line 31
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Mar 20 10:52:31 2026...

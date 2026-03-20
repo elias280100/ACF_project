@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/Multiplier_DaddaTree/src/Multiplier_DaddaTree.v" into library work
+INFO: [VRFC 10-311] analyzing module half_adder
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-311] analyzing module Multiplier_DaddaTree
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/Multiplier_DaddaTree/src/Multiplier_Dadda_Tree_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module Multiplier_Dadda_Tree_tb

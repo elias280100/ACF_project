@@ -11,11 +11,11 @@ module CRC32 (
     reg  [31:0] crc;
     reg  [31:0] crc_prev;
     reg  [31:0] crc_next;
-    reg  [3:0]  debug;
+    //reg  [3:0]  debug;
 
-    integer i, j;   // Schleifenvariablen müssen in Verilog außerhalb deklariert werden
+    integer i, j;   
 
-    parameter [31:0] POLY      = 32'h04C11DB7;
+    parameter [31:0] POLY      = 32'h04C11DB7;      //Ethernet 32 Polynomial
     parameter [31:0] final_crc = 32'h00000000;
     parameter [31:0] init      = 32'hffffffff;
 
@@ -37,12 +37,12 @@ module CRC32 (
             crc_next = crc;
             crc_prev = crc;
             for (i = 0; i < 8; i = i + 1) begin
-                crc_next[0] = crc_prev[31] ^ data_in[7 - i];
+                crc_next[0] = crc_prev[31] ^ data_in[7 - i];    //just if MSB == 1 data is xored with Poly -> i
                 for (j = 1; j < 32; j = j + 1) begin
-                    if (POLY[j] == 1) begin
+                    if (POLY[j] == 1) begin                     //crc_next xored whenever Poly == 1
                         crc_next[j] = crc_prev[j-1] ^ crc_prev[31] ^ data_in[7 - i];
                     end
-                    else begin
+                    else begin                                  //just normal shift
                         crc_next[j] = crc_prev[j-1];
                     end
                 end

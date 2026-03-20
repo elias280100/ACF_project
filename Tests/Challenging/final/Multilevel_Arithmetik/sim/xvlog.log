@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/Multilevel_Arithmetik/src/Multilevel_Arithmetik.v" into library work
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-311] analyzing module adder_ripple_carry
+INFO: [VRFC 10-311] analyzing module mult_4bit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/Multilevel_Arithmetik/src/Multilevel_Arithmetik_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_mult_4bit
+WARNING: [VRFC 10-8497] literal value 'd675 truncated to fit in 9 bits [/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/Multilevel_Arithmetik/src/Multilevel_Arithmetik_tb.v:67]

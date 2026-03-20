@@ -1,0 +1,90 @@
+#-----------------------------------------------------------
+# xsim v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Mar 20 10:50:40 2026
+# Process ID         : 35227
+# Current directory  : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/Multilevel_Arithmetik/sim
+# Command line       : xsim -mode tcl -source {xsim.dir/tb_mult_4bit_snapshot/xsim_script.tcl}
+# Log file           : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/Multilevel_Arithmetik/sim/xsim.log
+# Journal file       : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/Multilevel_Arithmetik/sim/xsim.jou
+# Running On         : elias-ThinkPad-E14-Gen-6
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : AMD Ryzen 7 7735HS with Radeon Graphics
+# CPU Frequency      : 2316.891 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 32340 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 40930 MB
+# Available Virtual  : 36714 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_mult_4bit_snapshot/xsim_script.tcl
+# xsim {tb_mult_4bit_snapshot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+=== 3×(4-Bit Multiplier) + Adder Testbench ===
+
+--- Test 1: All Zeros ---
+Time=0 | (a= 0×b= 0) + (c= 0×d= 0) + (e= 0×f= 0) =   0
+PASS: ( 0× 0) + ( 0× 0) + ( 0× 0) =   0 (expected   0)
+
+--- Test 2: Single Non-Zero Multiplication ---
+Time=10000 | (a= 2×b= 3) + (c= 0×d= 0) + (e= 0×f= 0) =   6
+PASS: ( 2× 3) + ( 0× 0) + ( 0× 0) =   6 (expected   6)
+Time=20000 | (a= 0×b= 0) + (c= 5×d= 4) + (e= 0×f= 0) =  20
+PASS: ( 0× 0) + ( 5× 4) + ( 0× 0) =  20 (expected  20)
+Time=30000 | (a= 0×b= 0) + (c= 0×d= 0) + (e= 7×f= 2) =  14
+PASS: ( 0× 0) + ( 0× 0) + ( 7× 2) =  14 (expected  14)
+
+--- Test 3: Two Non-Zero Multiplications ---
+Time=40000 | (a= 2×b= 3) + (c= 4×d= 5) + (e= 0×f= 0) =  26
+PASS: ( 2× 3) + ( 4× 5) + ( 0× 0) =  26 (expected  26)
+Time=50000 | (a= 3×b= 3) + (c= 3×d= 3) + (e= 0×f= 0) =  18
+PASS: ( 3× 3) + ( 3× 3) + ( 0× 0) =  18 (expected  18)
+
+--- Test 4: All Three Multiplications ---
+Time=60000 | (a= 2×b= 2) + (c= 3×d= 3) + (e= 2×f= 2) =  17
+PASS: ( 2× 2) + ( 3× 3) + ( 2× 2) =  17 (expected  17)
+Products:   4,   9,   4
+Time=70000 | (a= 3×b= 3) + (c= 2×d= 2) + (e= 1×f= 1) =  14
+PASS: ( 3× 3) + ( 2× 2) + ( 1× 1) =  14 (expected  14)
+Time=80000 | (a= 2×b= 3) + (c= 3×d= 2) + (e= 2×f= 3) =  18
+PASS: ( 2× 3) + ( 3× 2) + ( 2× 3) =  18 (expected  18)
+
+--- Test 5: Larger Numbers ---
+Time=90000 | (a= 5×b= 4) + (c= 3×d= 6) + (e= 2×f= 7) =  52
+PASS: ( 5× 4) + ( 3× 6) + ( 2× 7) =  52 (expected  52)
+Products:  20,  18,  14
+Time=100000 | (a= 8×b= 8) + (c= 9×d= 9) + (e= 6×f= 6) = 181
+PASS: ( 8× 8) + ( 9× 9) + ( 6× 6) = 181 (expected 181)
+Products:  64,  81,  36
+
+--- Test 6: Maximum Values ---
+Time=110000 | (a=15×b=15) + (c=15×d=15) + (e=15×f=15) = 507
+FAIL: (15×15) + (15×15) + (15×15) = 507 (expected 163)
+
+--- Test 7: Edge Cases (Factor = 1) ---
+Time=120000 | (a= 1×b=15) + (c= 1×d=14) + (e= 1×f=13) =  42
+PASS: ( 1×15) + ( 1×14) + ( 1×13) =  42 (expected  42)
+Time=130000 | (a=15×b= 1) + (c=14×d= 1) + (e=13×f= 1) =  42
+PASS: (15× 1) + (14× 1) + (13× 1) =  42 (expected  42)
+
+--- Test 8: Powers of 2 ---
+Time=140000 | (a= 4×b= 4) + (c= 4×d= 4) + (e= 4×f= 4) =  48
+PASS: ( 4× 4) + ( 4× 4) + ( 4× 4) =  48 (expected  48)
+Time=150000 | (a= 8×b= 2) + (c= 4×d= 4) + (e= 2×f= 8) =  48
+PASS: ( 8× 2) + ( 4× 4) + ( 2× 8) =  48 (expected  48)
+
+--- Test 9: Asymmetric Combinations ---
+Time=160000 | (a= 1×b= 1) + (c= 2×d= 2) + (e= 3×f= 3) =  14
+PASS: ( 1× 1) + ( 2× 2) + ( 3× 3) =  14 (expected  14)
+Time=170000 | (a= 5×b= 6) + (c= 7×d= 8) + (e= 9×f=10) = 176
+FAIL: ( 5× 6) + ( 7× 8) + ( 9×10) = 176 (expected 284)
+
+=== Test Complete ===
+$finish called at time : 180 ns : File "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/Multilevel_Arithmetik/src/Multilevel_Arithmetik_tb.v" Line 85
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Mar 20 10:50:42 2026...

@@ -1,0 +1,1 @@
+-debug "typical" -top "cla16_tb" -snapshot "cla16_tb_snapshot" 
