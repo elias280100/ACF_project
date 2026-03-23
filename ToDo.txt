@@ -1,6 +1,9 @@
 ToDo:
 
-
+CSE
+constant propagation
+Boolean Identitäten
+Mulitplikation mit Konstante
 
 
 

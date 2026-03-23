@@ -1,0 +1,1 @@
+-debug "typical" -top "const_mult_tb" -snapshot "const_mult_tb_snapshot" 

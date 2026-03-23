@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/final/Constant_Multiplication/src/Constant_Multiplication.v" into library work
+INFO: [VRFC 10-311] analyzing module const_mult
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/final/Constant_Multiplication/src/Constant_Multiplication_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module const_mult_tb

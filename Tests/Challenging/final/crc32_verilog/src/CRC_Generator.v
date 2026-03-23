@@ -2,10 +2,10 @@
 module CRC32 (
     input clk,
     input reset,
-    input [7:0] data_in,
+    input [7:0] data_in,        //8 bits per cycle
     input valid,
 
-    output [31:0] crc_out
+    output [31:0] crc_out       //output 32 bits crc
 );
 
     reg  [31:0] crc;
@@ -16,8 +16,8 @@ module CRC32 (
     integer i, j;   
 
     parameter [31:0] POLY      = 32'h04C11DB7;      //Ethernet 32 Polynomial
-    parameter [31:0] final_crc = 32'h00000000;
-    parameter [31:0] init      = 32'hffffffff;
+    parameter [31:0] final_crc = 32'h00000000;      //last xor 
+    parameter [31:0] init      = 32'hffffffff;      //initial value of crc
 
     always @(posedge clk) begin
         if (reset) begin

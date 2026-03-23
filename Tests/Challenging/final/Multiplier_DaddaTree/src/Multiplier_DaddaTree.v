@@ -1,3 +1,4 @@
+//half adder
 module half_adder (
     input a,
     input b,
@@ -8,24 +9,7 @@ module half_adder (
     assign cout = a & b;
 endmodule
 
-/*
-module full_adder (
-    input a,
-    input b,
-    input c,
-    input d,
-    input cin,
-    output sum,
-    output cout
-);
-    assign sum = a ^ b ^ c ^ d ^ cin;
-    assign cout = (a & b) | (a & c) | (a & d) | (a & cin) |
-                  (b & c) | (b & d) | (b & cin) |
-                  (c & d) | (c & cin) |
-                  (d & cin);
-endmodule
-*/
-
+//full adder
 module full_adder (
     input a,
     input b,
@@ -37,11 +21,12 @@ module full_adder (
     assign cout = (a & b) | (a & cin) | (b & cin);
 endmodule
 
+//Multiplier Dadda Tree
 module Multiplier_DaddaTree (
     input [7:0] a,
     input [7:0] b,
     output [15:0] product,
-    output [63:0] debug // For debugging purposes
+    //output [63:0] debug // For debugging purposes
 );
 
     wire [7:0] partial_products[7:0];
@@ -50,7 +35,7 @@ module Multiplier_DaddaTree (
     generate
         for (i = 0; i < 8; i = i + 1) begin : gen_partial_products
             for (j = 0; j < 8; j = j + 1) begin : gen_bits
-                assign partial_products[i][j] = a[j] & b[i];
+                assign partial_products[i][j] = a[j] & b[i];            //partial products is 8x8 array storing result of a&b
             end
         end
     endgenerate
@@ -65,8 +50,8 @@ module Multiplier_DaddaTree (
         .cout(col_carry[0])
     );
     //Debug
-    assign debug[0] = col_sum[0];
-    assign debug[1] = col_carry[0];
+    // assign debug[0] = col_sum[0];
+    // assign debug[1] = col_carry[0];
     full_adder fa1 (
         .a(partial_products[0][7]),
         .b(partial_products[1][6]),
@@ -75,8 +60,8 @@ module Multiplier_DaddaTree (
         .cout(col_carry[1])
     );
     //Debug
-    assign debug[2] = col_sum[1];
-    assign debug[3] = col_carry[1];
+    // assign debug[2] = col_sum[1];
+    // assign debug[3] = col_carry[1];
     full_adder fa2 (
         .a(partial_products[1][7]),
         .b(partial_products[2][6]),
@@ -228,7 +213,6 @@ module Multiplier_DaddaTree (
         .sum(col_sum[22]),
         .cout(col_carry[22])
     );
-    //hier weitermachen
     full_adder fa18 (
         .a(col_carry[7]),
         .b(col_carry[14]),

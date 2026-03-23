@@ -1,0 +1,26 @@
+%!
+/radius 4 def
+/abstand 20 def
+/baseX 50 def
+/baseY 500 def
+/zeilenAbstand 25 def
+
+0 1 7 {
+    /row exch def
+
+    /numPunkte 15 row 2 mul sub def       % 15 - 2*row
+    /startX baseX row abstand mul add def  % Einzug für Zentrierung
+    /y baseY row zeilenAbstand mul sub def % Y nach unten verschieben
+
+    0 1 numPunkte 1 sub {                  % innere Schleife: 0 bis numPunkte-1
+        /j exch def
+        newpath
+        startX j abstand mul add  y  radius  0 360 arc
+        fill
+    } for
+
+} for
+
+showpage
+
+
