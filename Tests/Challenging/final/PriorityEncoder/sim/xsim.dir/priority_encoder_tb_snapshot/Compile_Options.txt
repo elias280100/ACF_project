@@ -1,0 +1,1 @@
+-debug "typical" -top "priority_encoder_tb" -snapshot "priority_encoder_tb_snapshot" 

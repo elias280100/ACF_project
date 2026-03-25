@@ -1,5 +1,7 @@
 ToDo:
 
+https://www.researchgate.net/figure/88-Dadda-tree-multiplier-operation-using-dot-diagram_fig8_333469528
+
 CSE
 constant propagation
 Boolean Identitäten
