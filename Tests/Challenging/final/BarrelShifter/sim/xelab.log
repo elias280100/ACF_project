@@ -1,0 +1,15 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab -debug typical -top BarrelShifter_tb -snapshot BarrelShifter_tb_snapshot 
+Multi-threading is on. Using 14 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3755] too many parameters for module instance 'DUT' [/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/final/BarrelShifter/src/BarrelShifter_tb.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.BarrelShifter
+Compiling module work.BarrelShifter_tb
+Built simulation snapshot BarrelShifter_tb_snapshot

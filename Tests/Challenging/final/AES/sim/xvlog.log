@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/final/AES/src/AES_S_Box.v" into library work
+INFO: [VRFC 10-311] analyzing module aes_sbox
+INFO: [VRFC 10-311] analyzing module aes_sbox_testcase
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/final/AES/src/AES_S_Box_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module aes_sbox_tb

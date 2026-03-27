@@ -1,0 +1,1 @@
+-debug "typical" -top "BarrelShifter_tb" -snapshot "BarrelShifter_tb_snapshot" 
