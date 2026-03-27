@@ -2,7 +2,7 @@ module aes_sbox (
     input  wire [7:0] in,
     output reg  [7:0] out
 );
-    always_comb begin
+    always @(*) begin
         case (in)
             8'h00: out = 8'h63;  8'h01: out = 8'h7c;
             8'h02: out = 8'h77;  8'h03: out = 8'h7b;
@@ -154,12 +154,12 @@ module aes_sbox (
 endmodule
 
 
-module aes_sbox_testcase (
-    input  wire [7:0] plaintext_byte,
-    output wire [7:0] substituted_byte
-);
-    aes_sbox sbox_inst (
-        .in  (plaintext_byte),
-        .out (substituted_byte)
-    );
-endmodule
+// module aes_sbox_testcase (
+//     input  wire [7:0] plaintext_byte,
+//     output wire [7:0] substituted_byte
+// );
+//     aes_sbox sbox_inst (
+//         .in  (plaintext_byte),
+//         .out (substituted_byte)
+//     );
+// endmodule
