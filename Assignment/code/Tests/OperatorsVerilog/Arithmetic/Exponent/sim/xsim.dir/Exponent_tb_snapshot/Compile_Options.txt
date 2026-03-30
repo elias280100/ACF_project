@@ -1,0 +1,1 @@
+-debug "typical" -top "Exponent_tb" -snapshot "Exponent_tb_snapshot" 

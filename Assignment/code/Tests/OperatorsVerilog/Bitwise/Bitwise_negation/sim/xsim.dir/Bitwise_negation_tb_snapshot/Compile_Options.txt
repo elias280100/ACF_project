@@ -1,0 +1,1 @@
+-debug "typical" -top "Bitwise_negation_tb" -snapshot "Bitwise_negation_tb_snapshot" 

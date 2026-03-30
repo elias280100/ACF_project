@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/Exponent/src/Exponent.v" into library work
+INFO: [VRFC 10-311] analyzing module Exponent
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Arithmetic/Exponent/src/Exponent_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module Exponent_tb

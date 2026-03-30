@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Reduction/Reduction_and/src/Reduction_and.v" into library work
+INFO: [VRFC 10-311] analyzing module Reduction_and
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Reduction/Reduction_and/src/Reduction_and_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module Reduction_and_tb

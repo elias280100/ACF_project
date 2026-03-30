@@ -1,0 +1,1 @@
+-debug "typical" -top "Case_equality_tb" -snapshot "Case_equality_tb_snapshot" 

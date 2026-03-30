@@ -1,0 +1,1 @@
+-debug "typical" -top "Logical_negation_tb" -snapshot "Logical_negation_tb_snapshot" 

@@ -1,0 +1,1 @@
+-debug "typical" -top "Bitwise_equivalence_tb" -snapshot "Bitwise_equivalence_tb_snapshot" 

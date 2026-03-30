@@ -1,0 +1,1 @@
+-debug "typical" -top "Reduction_xor_tb" -snapshot "Reduction_xor_tb_snapshot" 

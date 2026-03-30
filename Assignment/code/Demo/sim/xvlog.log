@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Demo/src/Demo_UART.v" into library work
+INFO: [VRFC 10-311] analyzing module Demo_UART
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Demo/src/Demo_UART_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module Demo_UART_tb

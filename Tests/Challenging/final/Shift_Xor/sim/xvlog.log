@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/final/Shift_Xor/src/shift_xor.v" into library work
+INFO: [VRFC 10-311] analyzing module shift_xor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/final/Shift_Xor/src/shift_xor_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module shift_xor_tb

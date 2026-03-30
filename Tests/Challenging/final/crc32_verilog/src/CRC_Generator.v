@@ -32,7 +32,7 @@ module CRC32 (
 
     assign crc_out = crc ^ final_crc;
 
-    generate
+    //generate
         always @(*) begin
             crc_next = crc;
             crc_prev = crc;
@@ -49,7 +49,7 @@ module CRC32 (
                 crc_prev = crc_next;
             end
         end
-    endgenerate
+    //endgenerate
 
 
 endmodule

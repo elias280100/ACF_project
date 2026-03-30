@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Reduction/Reduction_xnor/src/Reduction_xnor.v" into library work
+INFO: [VRFC 10-311] analyzing module Reduction_xnor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Reduction/Reduction_xnor/src/Reduction_xnor_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module Reduction_xnor_tb

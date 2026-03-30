@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Shift/Arithmetic_right_shift/src/Arithmetic_right_shift.v" into library work
+INFO: [VRFC 10-311] analyzing module Arithmetic_right_shift
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Shift/Arithmetic_right_shift/src/Arithmetic_right_shift_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module Arithmetic_right_shift_tb

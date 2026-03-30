@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Bitwise/Bitwise_and/src/Bitwise_and.v" into library work
+INFO: [VRFC 10-311] analyzing module Bitwise_and
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Bitwise/Bitwise_and/src/Bitwise_and_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module Bitwise_and_tb

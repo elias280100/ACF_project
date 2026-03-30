@@ -1,0 +1,1 @@
+-debug "typical" -top "Logical_or_tb" -snapshot "Logical_or_tb_snapshot" 

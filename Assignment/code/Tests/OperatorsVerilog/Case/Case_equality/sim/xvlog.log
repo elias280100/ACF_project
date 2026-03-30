@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Case/Case_equality/src/Case_equality.v" into library work
+INFO: [VRFC 10-311] analyzing module Case_equality
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Case/Case_equality/src/Case_equality_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module Case_equality_tb

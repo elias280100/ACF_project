@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# xsim v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Mar 20 14:15:49 2026
+# Process ID         : 47689
+# Current directory  : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/final/FSM/sim
+# Command line       : xsim -mode tcl -source {xsim.dir/FSM_16state_tb_snapshot/xsim_script.tcl}
+# Log file           : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/final/FSM/sim/xsim.log
+# Journal file       : /home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/final/FSM/sim/xsim.jou
+# Running On         : elias-ThinkPad-E14-Gen-6
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.4 LTS
+# Processor Detail   : AMD Ryzen 7 7735HS with Radeon Graphics
+# CPU Frequency      : 2773.920 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 32340 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 40930 MB
+# Available Virtual  : 34251 MB
+#-----------------------------------------------------------
+source xsim.dir/FSM_16state_tb_snapshot/xsim_script.tcl
+# xsim {FSM_16state_tb_snapshot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+$stop called at time : 295 us : File "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/Challenging/final/FSM/src/FSM_tb.v" Line 110
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Mar 20 14:15:51 2026...

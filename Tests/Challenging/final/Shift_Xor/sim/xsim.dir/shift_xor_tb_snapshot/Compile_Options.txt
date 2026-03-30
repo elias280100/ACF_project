@@ -1,0 +1,1 @@
+-debug "typical" -top "shift_xor_tb" -snapshot "shift_xor_tb_snapshot" 

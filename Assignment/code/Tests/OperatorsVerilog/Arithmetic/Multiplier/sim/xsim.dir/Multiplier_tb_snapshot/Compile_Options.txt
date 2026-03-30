@@ -1,0 +1,1 @@
+-debug "typical" -top "Multiplier_tb" -snapshot "Multiplier_tb_snapshot" 

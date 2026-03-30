@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Logical/Logical_negation/src/Logical_negation.v" into library work
+INFO: [VRFC 10-311] analyzing module Logical_negation
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Logical/Logical_negation/src/Logical_negation_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module Logical_negation_tb

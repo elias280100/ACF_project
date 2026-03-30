@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Bitwise/Bitwise_equivalence/src/Bitwise_equivalence.v" into library work
+INFO: [VRFC 10-311] analyzing module Bitwise_equivalence
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/elias/Documents/2_Semester/ACF/Project/ACF_project/Tests/OperatorsVerilog/Bitwise/Bitwise_equivalence/src/Bitwise_equivalence_tb.v" into library work
+INFO: [VRFC 10-311] analyzing module Bitwise_equivalence_tb

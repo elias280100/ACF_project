@@ -1,0 +1,1 @@
+-debug "typical" -top "Bitwise_inclusive_or_tb" -snapshot "Bitwise_inclusive_or_tb_snapshot" 

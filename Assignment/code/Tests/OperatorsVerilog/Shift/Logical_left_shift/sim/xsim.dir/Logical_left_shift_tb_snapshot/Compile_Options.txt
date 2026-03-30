@@ -1,0 +1,1 @@
+-debug "typical" -top "Logical_left_shift_tb" -snapshot "Logical_left_shift_tb_snapshot" 
